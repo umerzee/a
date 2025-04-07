@@ -37,8 +37,9 @@
             margin-top: 40px;
         }
         .photo-gallery img {
-            width: 200px;
-            height: 200px;
+            width: 100%;
+            max-width: 200px;
+            height: auto;
             border-radius: 10px;
             object-fit: cover;
             transition: transform 0.3s;
@@ -60,20 +61,6 @@
             line-height: 1.6;
             color: #444;
         }
-        .cta-button {
-            display: inline-block;
-            margin-top: 30px;
-            background-color: #ff77a9;
-            padding: 15px 25px;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2em;
-            transition: background-color 0.3s;
-        }
-        .cta-button:hover {
-            background-color: #ff4d81;
-        }
     </style>
 </head>
 <body>
@@ -84,14 +71,14 @@
     </div>
 
     <div class="photo-gallery">
-        <img src="https://i.imgur.com/W5IWNuc.jpeg" alt="Memory 1">
-        <img src="https://i.imgur.com/vxb3Mov.jpeg" alt="Memory 2">
-        <img src="https://i.imgur.com/1eV0KG6.jpeg" alt="Memory 3">
-        <img src="https://i.imgur.com/QjJjWIj.jpeg" alt="Memory 4">
+        <!-- Added your image links -->
+        <img src="https://i.imgur.com/QjJjWIj.jpeg" alt="Memory 1">
+        <img src="https://i.imgur.com/1eV0KG6.jpeg" alt="Memory 2">
+        <img src="https://i.imgur.com/vxb3Mov.jpeg" alt="Memory 3">
+        <img src="https://i.imgur.com/W5IWNuc.jpeg" alt="Memory 4">
     </div>
 
     <div class="letter-section">
-        <h2>Birthday Letter</h2>
         <p>
             My Dearest Hafsa,<br><br>
             Happy Birthday, my love! On this special day, I want you to know how incredibly lucky I feel to have you in my life. You are the one who brightens my every day with your smile, your laughter, and your unwavering love. Each moment spent with you feels like a beautiful dream that I never want to wake from.<br><br>
@@ -101,7 +88,6 @@
             Forever yours,<br>
             Umer
         </p>
-        <a href="#your-link" class="cta-button">Open Your Surprise!</a>
     </div>
 
 </body>
